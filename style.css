@@ -1,0 +1,90 @@
+/* Estilo geral da página */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo do campo de entrada do CEP */
+fieldset {
+    margin: 20px 0;
+    border: none;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 300px;
+    max-width: 100%;
+    font-size: 16px;
+}
+
+/* Estilo da mensagem de carregamento */
+#loading {
+    display: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+/* Estilo da mensagem de erro */
+#message {
+    display: none;
+    font-weight: bold;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffebeb;
+    color: #d8000c;
+    border: 1px solid #d8000c;
+    border-radius: 5px;
+}
+
+/* Estilo dos resultados de pesquisa */
+#logradouro, #bairro, #uf {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+#uf {
+    text-transform: uppercase;
+}
+
+/* Estilo do botão de pesquisa */
+button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+button:hover {
+    background-color: #0062cc;
+}
+
+/* Estilo do rodapé */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #777;
+    font-size: 14px;
+}
